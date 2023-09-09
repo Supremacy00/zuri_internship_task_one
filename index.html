@@ -10,14 +10,14 @@
   <body>
     <main class="container">
       <section class="zuri_taskone">
-        <h1>Musa Abdulmuqaddas</h1>
-        <img src="image/taskonelogo.jpeg" alt="Musa Abdulmuqaddas" class="profile_img"/>
+        <h1 data-testid="slackUserName">Musa Abdulmuqaddas</h1>
+        <img src="image/taskonelogo.jpeg" alt="Musa Abdulmuqaddas" data-testid="slackDisplayImage" class="profile_img"/>
         <div class="details_cont">
-          <p id="day">Day</p>
-          <p id="time">time</p>
-          <p><span>Frontend</span></p>
+          <p id="day" data-testid="currentDayOfTheWeek">Day</p>
+          <p id="time" data-testid="currentUTCTime">time</p>
+          <p data-testid="myTrack"><span>Frontend</span></p>
         </div>
-        <h2 class="link">For my Github Repository <a href="https://github.com/Supremacy00/zuri_internship_task_one.git">Click Here</a></h2>
+        <h2 class="link" data-testid=“githubURL”>For my Github Repository <a href="https://github.com/Supremacy00/zuri_internship_task_one.git">Click Here</a></h2>
       </section>
     </main>
   </body>
