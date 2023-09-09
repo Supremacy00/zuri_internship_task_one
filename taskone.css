@@ -27,6 +27,9 @@
   font-style: italic;
   font-weight: bold;
 }
+.link {
+  font-size: 16px
+}
 
 @media screen and (max-width: 576px) {
   .zuri_taskone {
