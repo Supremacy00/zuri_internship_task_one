@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.zuri_taskone {
+  border: solid;
+  max-width: 450px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px 0 50px 0;
+  border-radius: 10px;
+}
+.profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 40px;
+}
+.details_cont p {
+  margin: 20px 0 20px 0;
+  font-weight: lighter;
+  font-size: 22px;
+}
+.details_cont span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .zuri_taskone {
+    max-width: 350px;
+  }
+  .container {
+    padding: 0 15px 0 15px;
+  }
+}
+
